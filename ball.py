@@ -1,5 +1,5 @@
 from turtle import Turtle
-SPEED = .0747
+SPEED = .0777
 
 class Ball(Turtle):
 
@@ -11,8 +11,8 @@ class Ball(Turtle):
 		self.color("white")
 		self.go = SPEED
 		self.speed(self.go)
-		self.x_move = 15
-		self.y_move = 15
+		self.x_move = 14
+		self.y_move = 14
 
 	def move(self):
 		new_x = self.xcor() + self.x_move
